@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Hanken';
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+*{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+.outline{
+    min-height: 96vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attribution{
+    max-height: 3vh;
+}
+
+.mainbox{
+    display: flex;
+    max-width: 680px;
+    height: 475px;
+    border-radius: 40px;
+    box-shadow: 5px 10px 5px 10px rgb(245, 245, 245);
+}
+
+.box{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.leftbox{
+    border-radius: 30px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.circle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    flex:1 0 100%;
+    margin-bottom: 5px;
+    margin-top: -20px;
+}
+
+
+.circle{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(hsla(256, 72%, 46%,1),hsla(256, 72%, 46%,0));   
+}
+
+.big{
+    font-size: 62px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 800;
+}
+
+
+.smol{
+    font-size: 16px;
+    opacity: 0.7;
+    margin-top: -8px;
+    color: white;
+}
+
+.top{
+    flex:1 0 100%;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(232, 226, 226, 0.925);
+    opacity: 0.8;
+    padding-top: 5px;
+}
+
+.message{
+    flex-basis: 100%;
+    color: rgba(232, 226, 226, 0.925);
+    font-weight: 500;
+    font-size: 17px;
+}
+ 
+.commend{
+    flex-basis: 100%;
+    font-size: 27px;
+    font-weight: 510;
+    color: white;
+    font-weight:700;
+    margin-top: -10px;
+    margin-bottom: 10px;
+ }
+ 
+
+.button{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    flex-basis: 100%;
+    padding:10px 10px;
+    margin: 25px;
+    height: 50px;
+    min-width: 250px;
+    border-radius: 30px;
+    align-self:self-end;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+}
+
+.button:hover{
+    background: hsl(224, 30%, 27%);
+    cursor: pointer;
+}
+
+
+.rb-header{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 13%;
+    align-items: flex-end;
+    font-weight: 500;
+}
+
+.rb-stats{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    max-width: 500px;
+}
+
+.rb-button{
+    align-self: self-end;
+    flex-basis:100%;
+}
+
+.sbutton{
+    padding-left:10px;
+    padding-right: 10px;
+    margin:5px;
+    height: 50px;
+    min-width: 250px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    font-size: 15px;
+}
+
+.sbutton.a{
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: hsla(0, 100%, 67%);
+}
+
+.sbutton.b{
+    background-color: hsla(39, 100%, 56%, 0.1);
+    color: hsla(39, 100%, 56%);
+}
+
+.sbutton.c{
+    background-color: hsla(166, 100%, 37%, 0.1);
+    color:hsla(166, 100%, 37%);
+}
+
+.sbutton.d{
+    background-color: hsla(234, 85%, 45%, 0.1);
+    color: hsla(234, 85%, 45%);
+}
+
+
+
+.bf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left{
+    min-width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left2{
+    min-width: 69px;
+}
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
